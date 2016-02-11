@@ -1,0 +1,100 @@
+@CHARSET "utf-8";
+
+#result{	
+	border: 1px solid #DDD;
+	-webkit-border-radius: 0.4em;
+	border-radius: 0.4em;
+	background: white none;
+}
+#info_view{
+	border: 1px solid #DDD;
+	-webkit-border-radius: 0.4em;
+	border-radius: 0.4em;
+	background: white none;
+	text-align : center;
+	padding : 15px;
+}
+
+#info_view h1{
+	font-size : 1.5em; 
+	height : 2em;
+}
+#info_view p{
+	font-size : 0.8em;
+	height : 1.8em;
+}
+#info_view p.supportmail{
+	margin-top : 15px;
+}
+#info_view p a{
+	font-weight: bold;
+	text-decoration: none;
+}
+img.logo{
+	width : 150px;
+}
+
+.history-item {	
+	width: 100%;  
+}
+.history-item .action {
+	opacity: 0;
+}
+div.date {
+	font-size : 10px;
+}
+.history-item .delete {
+    float: right;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 5px 8px;
+    border-color: #555;
+    background-color: red;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4d4d), color-stop(50%, #ff1a1a), color-stop(51%, #ff0000), color-stop(100%, #e60000));
+	background-image: linear-gradient(#ff4d4d,#ff1a1a 50%,#ff0000 51%,#e60000);
+}
+
+
+.history-item-active .history-item .action {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s linear;
+}
+
+
+div#result_view{
+	text-align : center;
+	font-size : 20px;
+	padding : 10px;
+}
+div#result span{
+	font-size : 25px;
+}
+span.other{
+}
+span.your{
+}
+div.btn_div{
+	margin-top:15px;
+}
+button.history_btn{
+	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #EDEDED), color-stop(1, #DFDFDF) );
+	background: -moz-linear-gradient( center top, #EDEDED 5%, #DFDFDF 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color: #EDEDED;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid gainsboro;
+	display: inline-block;
+	color: #777;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px white;
+	border-image: initial;
+}
